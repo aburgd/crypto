@@ -1,0 +1,9 @@
+machine:
+  python:
+    version: 3.5.2
+
+test:
+  override:
+    - python setup.py
+    - python __init__.py
+    - python test.py
