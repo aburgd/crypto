@@ -1,6 +1,6 @@
 """tests crypto.py using unittest"""
 import unittest
-import crypto
+from .context import crypto
 
 class CryptoTestCases(unittest.TestCase):
     """tests crypto.py using unittest"""

@@ -8,6 +8,6 @@ install:
 script:
   - pip install pytest
   - pip install -r requirements.txt
-  - python setup.py
+  - python setup.py install
   - pytest
   - python crypto.py
