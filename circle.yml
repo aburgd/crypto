@@ -5,5 +5,5 @@ machine:
 test:
   override:
     - python setup.py
-    - python __init__.py
+    - python crypto.py
     - python test.py

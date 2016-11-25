@@ -10,4 +10,4 @@ script:
   - pip install -r requirements.txt
   - python setup.py
   - pytest
-  - python __crypto__.py
+  - python crypto.py
