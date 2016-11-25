@@ -8,8 +8,8 @@ Exchange algorithm, used to derive public keys and shared secrets for
 parties in a cryptographic system.
 
 .. |CircleCI| image:: https://img.shields.io/circleci/project/github/aburgd/DHKE-py.svg?style=flat-square
-   :target: https://circleci.com/gh/aburgd/DHKE-py
+   :target: https://circleci.com/gh/aburgd/mod-crypto
 .. |Travis| image:: https://img.shields.io/travis/aburgd/DHKE-py.svg?style=flat-square
-   :target: https://travis-ci.org/aburgd/DHKE-py/builds
-.. |license| image:: https://img.shields.io/github/license/aburgd/DHKE-py.svg?style=flat-square
+   :target: https://travis-ci.org/aburgd/mod-crypto/builds
+.. |license| image:: https://img.shields.io/github/license/aburgd/mod-crypto.svg?style=flat-square
    :target: http://choosealicense.com/licenses/mit/
