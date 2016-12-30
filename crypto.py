@@ -36,7 +36,7 @@ def generate():
     >>> type(generate()) is not int
     False
     """
-    num_bytes = os.urandom(3)
+    num_bytes = os.urandom(8)
     num = int.from_bytes(num_bytes, sys.byteorder)
     return num
 
