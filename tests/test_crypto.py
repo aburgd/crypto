@@ -1,10 +1,12 @@
 """tests crypto.py using unittest"""
 import unittest
-from .context import crypto
+import crypto
 
 
 class CryptoTestCases(unittest.TestCase):
-    """tests crypto.py using unittest"""
+    """
+    tests crypto.py using unittest
+    """
 
     def test_number_generation(self):
         """tests crypto.generate() and tests for correct type returned"""

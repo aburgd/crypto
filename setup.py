@@ -1,11 +1,5 @@
 from distutils.core import setup
 
-with open('LICENSE') as f:
-    license = f.read()
-
-with open('README.rst') as f:
-    readme = f.read()
-
 
 setup(
     name='crypto',
@@ -16,5 +10,9 @@ setup(
     license=license,
     author='Alec Burgdorf',
     author_email='aeburgd@gmail.com',
-    description=''
+    description='a python module for generating DHKE integer keys'
+    long_description='This Python module is a demonstration'
+                     'of the Diffie-Hellman(-Merkle)'
+                     'Key Exchange algorithm, used to derive public keys and'
+                     'shared secrets for parties in a cryptographic system.'
 )
