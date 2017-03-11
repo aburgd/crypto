@@ -1,7 +1,7 @@
 mod-crypto
 =======
 
-|CircleCI| |Travis| |license| |codacy|
+|CircleCI| |Travis| |license| |codacy| |codeship|
 
 This Python module is a demonstration of the Diffie-Hellman(-Merkle) Key
 Exchange algorithm, used to derive public keys and shared secrets for
@@ -15,3 +15,5 @@ parties in a cryptographic system.
    :target: http://choosealicense.com/licenses/mit/
 .. |codacy|:: https://api.codacy.com/project/badge/Grade/0778616eb3dd4c878875afccd793bd99
    :target: https://www.codacy.com/app/aeburgd/mod-crypto?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=aburgd/mod-crypto&amp;utm_campaign=Badge_Grade
+.. |codeship| image:: https://app.codeship.com/projects/207405/status?branch=master
+   :target: https://app.codeship.com/projects/207405
