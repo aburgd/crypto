@@ -1,15 +1,23 @@
-DHKE-py
+mod-crypto
 =======
 
-|CircleCI| |Travis| |license|
+|CircleCI| |Travis| |license| |codacy| |codeship|
 
 This Python module is a demonstration of the Diffie-Hellman(-Merkle) Key
 Exchange algorithm, used to derive public keys and shared secrets for
 parties in a cryptographic system.
 
-.. |CircleCI| image:: https://img.shields.io/circleci/project/github/aburgd/DHKE-py.svg?style=flat-square
+.. |CircleCI| image:: https://img.shields.io/circleci/project/github/aburgd/mod-crypto.svg?style=flat-square
    :target: https://circleci.com/gh/aburgd/mod-crypto
-.. |Travis| image:: https://img.shields.io/travis/aburgd/DHKE-py.svg?style=flat-square
+.. |Travis| image:: https://img.shields.io/travis/aburgd/mod-crypto.svg?style=flat-square
    :target: https://travis-ci.org/aburgd/mod-crypto/builds
 .. |license| image:: https://img.shields.io/github/license/aburgd/mod-crypto.svg?style=flat-square
    :target: http://choosealicense.com/licenses/mit/
+.. |codacy|:: https://api.codacy.com/project/badge/Grade/0778616eb3dd4c878875afccd793bd99
+   :target: https://www.codacy.com/app/aeburgd/mod-crypto?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=aburgd/mod-crypto&amp;utm_campaign=Badge_Grade
+.. |codeship| image:: https://app.codeship.com/projects/207405/status?branch=master
+   :target: https://app.codeship.com/projects/207405
+
+.. image:: https://api.codacy.com/project/badge/Grade/0778616eb3dd4c878875afccd793bd99
+   :alt: Codacy Badge
+   :target: https://www.codacy.com/app/aeburgd/mod-crypto?utm_source=github.com&utm_medium=referral&utm_content=aburgd/mod-crypto&utm_campaign=badger
