@@ -13,6 +13,6 @@ parties in a cryptographic system.
    :target: https://travis-ci.org/aburgd/mod-crypto/builds
 .. |license| image:: https://img.shields.io/github/license/aburgd/mod-crypto.svg?style=flat-square
    :target: http://choosealicense.com/licenses/mit/
-.. |codacy|:: https://api.codacy.com/project/badge/Grade/0778616eb3dd4c878875afccd793bd99
-   :target: https://www.codacy.com/app/aeburgd/mod-crypto?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=aburgd/mod-crypto&amp;utm_campaign=Badge_Grade
+.. |codacy| image:: https://api.codacy.com/project/badge/Grade/0778616eb3dd4c878875afccd793bd99
+   :target: https://www.codacy.com/app/aeburgd/mod-crypto
 .. |codeship| image:: https://app.codeship.com/projects/3ac913e0-e8a7-0134-c58f-1635a52dc88d/status?branch=master
