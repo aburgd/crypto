@@ -1,6 +1,6 @@
 """tests crypto.py using unittest"""
 import unittest
-import crypto
+from crypto import crypto
 
 
 class CryptoTestCases(unittest.TestCase):
