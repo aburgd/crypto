@@ -1,12 +1,11 @@
 machine:
   python:
-    version: 3.5.2
+    version: 3.6
 
 test:
   pre:
-    - pip install pytest
     - pip install -r requirements.txt
-  override:
     - python setup.py install
-    - python crypto.py
-    - pytest
+  override:
+    - python crypto/crypto.py -v
+    - pytest tests/test_crypto.py
